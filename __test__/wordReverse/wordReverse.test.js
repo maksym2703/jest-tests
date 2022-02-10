@@ -18,6 +18,6 @@ describe("reverse sentence", () => {
       expect(wordReverse(str)).toBe("hi fop ");
    });
    test('conditional test', () => {
-      expect(() => typeof wordReverse(10)).toThrow()
+      expect(() => typeof wordReverse(10)).toThrow(Error)
    });
 });

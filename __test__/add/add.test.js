@@ -27,6 +27,6 @@ describe("tests for currying function add(a)(b)", () => {
       });
    });
    test('conditional test', () => {
-      expect(() => typeof add('value')).toThrow()
+      expect(() => typeof add('value')).toThrow(Error)
    });
 });
